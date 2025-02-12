@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# The Labyrinth of Light and Code: AI, Gödel, and the Neon Shadows of Blade Runner
-
 # **The Labyrinth of Light and Code: AI, Gödel, and the Neon Shadows of Blade Runner**
 
 ---
