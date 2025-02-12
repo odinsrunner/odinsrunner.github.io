@@ -29,3 +29,19 @@ blockquote {
   width: 100%;
   height: 100%;
 }
+/* Neon-styled video link */
+.neon-video-link {
+  color: #0ff; 
+  border: 1px solid #f0f;
+  padding: 10px;
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.neon-video-link:hover {
+  background: rgba(255, 0, 255, 0.1);
+  box-shadow: 0 0 15px #f0f;
+  text-shadow: 0 0 10px #0ff;
+}
