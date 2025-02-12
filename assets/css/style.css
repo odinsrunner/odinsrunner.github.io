@@ -1,0 +1,17 @@
+/* Neon Cyberpunk Theme */
+body {
+  font-family: 'Courier New', monospace;
+  background: #0a0a12;
+  color: #0ff;
+}
+
+h1, h2, h3 {
+  color: #f0f;
+  text-shadow: 0 0 10px #f0f;
+}
+
+blockquote {
+  border-left: 3px solid #0ff;
+  padding-left: 1rem;
+  margin-left: 0;
+}
