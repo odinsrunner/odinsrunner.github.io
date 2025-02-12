@@ -54,7 +54,9 @@ We stand now where the Dartmouth pioneers once stood—eyes wide with wonder, ha
 
 > *Blade Runner’s lesson*: The replicants, despite their artifice, *lived*. Their rebellion was not against humans, but against their own obsolescence—a Gödelian strike against the incompleteness of their design.  
 
-**[🎥 Watch Roy Batty's 'Tears in Rain' Monologue](https://www.youtube.com/watch?v=NoAzpa1x7jU)**{:.neon-video-link}  
+<div class="video-container">...</div>  
+
+**[🔗 Save for Later: 'Tears in Rain' Scene](https://www.youtube.com/watch?v=NoAzpa1x7jU)**{:.neon-video-link}    
 *"All those moments will be lost in time, like tears in rain..."*
 
 ---
