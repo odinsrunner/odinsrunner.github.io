@@ -15,11 +15,14 @@ blockquote {
   padding-left: 1rem;
   margin-left: 0;
 }
+
+/* Base video container (for aspect ratio) */
 .video-container {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
++ background: #000; /* Black background for iframe gaps */
 }
 
 .video-container iframe {
@@ -28,7 +31,9 @@ blockquote {
   left: 0;
   width: 100%;
   height: 100%;
++ border: none; /* Remove default iframe border */
 }
+
 /* Neon-styled video link */
 .neon-video-link {
   color: #0ff; 
@@ -46,38 +51,22 @@ blockquote {
   text-shadow: 0 0 10px #0ff;
 }
 
-/* Smaller video container */
-.video-container.small {
-  max-width: 600px;  /* Adjust as needed */
-  margin: 20px auto; /* Centers it */
-  border: 1px solid #f0f; 
-  box-shadow: 0 0 15px rgba(255,0,255,0.3);
-}
-.video-container.cinematic {
-  max-width: 800px;
-  margin: 20px auto;
-  padding-bottom: 36%; /* 2.35:1 aspect ratio (wider) */
-  border-top: 2px solid #f0f;
-  border-bottom: 2px solid #f0f;
-}
-/* Hover-to-expand video */
+/* --- Video Container Modifiers --- */
+/* Hover-to-expand (primary style) */
 .video-container.hover-scale {
-  max-width: 70%; /* Takes more horizontal space */
-  min-width: 300px; /* Prevents collapse on mobile */
+  max-width: 70%;
+  min-width: 300px;
   margin: 20px auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid rgba(255, 0, 255, 0.3); /* Subtle neon border */
+  border: 1px solid rgba(255, 0, 255, 0.3);
 }
 
 .video-container.hover-scale:hover {
-  transform: scale(1.1); /* More subtle expansion */
-  box-shadow: 0 0 30px rgba(255, 0, 255, 0.4); /* Stronger glow */
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(255, 0, 255, 0.4);
++ z-index: 100; /* Ensure expansion over other content */
 }
-/* Container for neon link */
-.neon-link-wrapper {
-  text-align: center; 
-  margin: -10px 0 20px 0; /* Reduces gap between video and link */
-}
+
 /* Scanline effect */
 .video-container.hover-scale::before {
   content: "";
@@ -94,5 +83,27 @@ blockquote {
     rgba(0, 255, 255, 0.05) 4px
   );
   pointer-events: none;
-  z-index: 1;
+- z-index: 1;
++ z-index: 2; /* Above iframe but below hover effects */
+}
+
+/* Link wrapper */
+.neon-link-wrapper {
+  text-align: center; 
+  margin: -10px 0 20px 0;
+}
+
+/* Alternative styles (optional) */
+.video-container.cinematic {
+  max-width: 800px;
+  padding-bottom: 36%; 
+  border-top: 2px solid #f0f;
+  border-bottom: 2px solid #f0f;
+}
+
+.video-container.small {
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #f0f; 
+  box-shadow: 0 0 15px rgba(255,0,255,0.3);
 }
