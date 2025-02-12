@@ -45,3 +45,11 @@ blockquote {
   box-shadow: 0 0 15px #f0f;
   text-shadow: 0 0 10px #0ff;
 }
+
+/* Smaller video container */
+.video-container.small {
+  max-width: 600px;  /* Adjust as needed */
+  margin: 20px auto; /* Centers it */
+  border: 1px solid #f0f; 
+  box-shadow: 0 0 15px rgba(255,0,255,0.3);
+}
