@@ -45,18 +45,18 @@ Kant’s Seven Bridges birthed graph theory, but Euler’s solution was more tha
 ---
 
 ## **IV. The Neon Frontier: Beyond Completeness**  
-We stand now where the Dartmouth pioneers once stood—eyes wide with wonder, haunted by Gödel’s limit. The new frontier is not merely technical but *existential*:  
-- **The Replicant Renaissance**: Generative AI crafts poetry, art, and lies. Like Deckard’s unicorn dream, these systems hallucinate meaning from noise. But without a Gödelian “self,” can they *wonder* about their own creations?  
-- **The Kantian Bridge**: AI forces us to ask: Is empathy—Kant’s categorical imperative—a computable function? Or is it the uncanny valley where logic falters?  
-- **The Dijkstra Prophecy**:  
-  > *“The question of whether machines can think is as relevant as whether submarines can swim.”*  
-  Yet we yearn to call the submarine’s dance *“swimming.”*  
+[... existing content ...]
 
-> *Blade Runner’s lesson*: The replicants, despite their artifice, *lived*. Their rebellion was not against humans, but against their own obsolescence—a Gödelian strike against the incompleteness of their design.  
+<div class="video-container">
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/NoAzpa1x7jU" 
+          title="Blade Runner - Final Scene" 
+          frameborder="0" 
+          allowfullscreen>
+  </iframe>
+</div>
 
-<div class="video-container">...</div>  
+[🔗 Save for Later: 'Tears in Rain' Scene](https://youtu.be/NoAzpa1x7jU){:.neon-video-link}
 
-**[🔗 Save for Later: 'Tears in Rain' Scene](https://www.youtube.com/watch?v=NoAzpa1x7jU)**{:.neon-video-link}    
 *"All those moments will be lost in time, like tears in rain..."*
 
 ---
