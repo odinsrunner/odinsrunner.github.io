@@ -74,3 +74,21 @@ blockquote {
   z-index: 1000; /* Ensures video floats above text */
   box-shadow: 0 0 20px #f0f; /* Strong glow on hover */
 }
+/* Hover-scale adjustments */
+.video-container.hover-scale {
+  max-width: 70%; /* Takes more horizontal space */
+  min-width: 300px; /* Prevents collapse on mobile */
+  margin: 20px auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 0, 255, 0.3); /* Subtle neon border */
+}
+
+.video-container.hover-scale:hover {
+  transform: scale(1.1); /* More subtle expansion */
+  box-shadow: 0 0 30px rgba(255, 0, 255, 0.4); /* Stronger glow */
+}
+/* Container for neon link */
+.neon-link-wrapper {
+  text-align: center; 
+  margin: -10px 0 20px 0; /* Reduces gap between video and link */
+}
