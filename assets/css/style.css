@@ -53,3 +53,24 @@ blockquote {
   border: 1px solid #f0f; 
   box-shadow: 0 0 15px rgba(255,0,255,0.3);
 }
+.video-container.cinematic {
+  max-width: 800px;
+  margin: 20px auto;
+  padding-bottom: 36%; /* 2.35:1 aspect ratio (wider) */
+  border-top: 2px solid #f0f;
+  border-bottom: 2px solid #f0f;
+}
+/* Hover-to-expand video */
+.video-container.hover-scale {
+  max-width: 400px; /* Default compact size */
+  margin: 20px auto; /* Center horizontally */
+  cursor: pointer; /* Indicates interactivity */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 5px rgba(255,0,255,0.2); /* Subtle pre-hover glow */
+}
+
+.video-container.hover-scale:hover {
+  transform: scale(1.5); /* 150% enlargement */
+  z-index: 1000; /* Ensures video floats above text */
+  box-shadow: 0 0 20px #f0f; /* Strong glow on hover */
+}
