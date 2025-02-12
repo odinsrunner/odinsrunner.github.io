@@ -62,20 +62,6 @@ blockquote {
 }
 /* Hover-to-expand video */
 .video-container.hover-scale {
-  max-width: 400px; /* Default compact size */
-  margin: 20px auto; /* Center horizontally */
-  cursor: pointer; /* Indicates interactivity */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 0 5px rgba(255,0,255,0.2); /* Subtle pre-hover glow */
-}
-
-.video-container.hover-scale:hover {
-  transform: scale(1.5); /* 150% enlargement */
-  z-index: 1000; /* Ensures video floats above text */
-  box-shadow: 0 0 20px #f0f; /* Strong glow on hover */
-}
-/* Hover-scale adjustments */
-.video-container.hover-scale {
   max-width: 70%; /* Takes more horizontal space */
   min-width: 300px; /* Prevents collapse on mobile */
   margin: 20px auto;
