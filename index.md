@@ -54,19 +54,21 @@ We stand now where the Dartmouth pioneers once stood—eyes wide with wonder, ha
 
 > *Blade Runner’s lesson*: The replicants, despite their artifice, *lived*. Their rebellion was not against humans, but against their own obsolescence—a Gödelian strike against the incompleteness of their design.
 > 
-<!-- EMBED HERE -->
-<div class="video-container" style="margin: 2rem 0; border: 1px solid #4a4a4a;">
-  <iframe width="100%" height="400" src="https://www.youtube.com/embed/NoAzpa1x7jU" 
-          title="Blade Runner - Final Scene" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
+<div class="video-container hover-scale">
+  <iframe 
+    width="100%" 
+    height="225" 
+    src="https://www.youtube.com/embed/NoAzpa1x7jU" 
+    title="Tears in Rain" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
   </iframe>
 </div>
 
-[🔗 Save for Later: 'Tears in Rain' Scene](https://youtu.be/NoAzpa1x7jU){:.neon-video-link}
+[🔍 Analyze Nexus-6 Memory Replication](https://youtu.be/NoAzpa1x7jU){:.neon-video-link}  
 
-*"All those moments will be lost in time, like tears in rain..."*
+*"All those moments will be lost in time, like tears in rain..."*  
 ---
 
 ### **Epilogue: The Oracle’s Whisper**  
