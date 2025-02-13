@@ -86,4 +86,6 @@ The Dartmouth dreamers sought to bottle lightning. We must now decide: Will AI b
 > *The frontier is not a destination but a prism. Through it, we glimpse ourselves—flawed, finite, yet unfathomably alive. Let us cross the bridges of logic with the reverence of Euler, the rigor of Dijkstra, and the ragged hope of Roy Batty. The replicants are coming. Will they weep for us?*  
 
 ---  
-*Written in the flicker of a terminal’s glow, 2023.*  
+robert joost, lost in code
+
+*Written in the flicker of a terminal’s glow, 2025.*  
